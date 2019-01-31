@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/home_menu"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black_24dp"/>
+
+        <item
+            android:id="@+id/profile_menu"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+
+    </group>
+
+    <item android:title="Communicate"
+        android:titleCondensed="@android:string/autofill"
+        tools:targetApi="o_mr1">
+
+        <menu>
+
+            <item android:id="@+id/share_menu"
+                android:title="Share"
+                android:icon="@drawable/ic_share_black_24dp"/>
+
+            <item android:id="@+id/contact_menu"
+                android:title="Contact Mail"
+                android:icon="@drawable/ic_contact_mail_black_24dp"/>
+
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="calendar">Go To Calendar</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="register">Register</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="category">Category: </string>
+    <string name="create_account">Create Account!!! Signup? \nClick Here...</string>
+    <string name="find_donor">Find Donor</string>
+    <string name="company_name">XossTechnologies Ltd.</string>
+    <string name="login">Already Have an Account!!! \n Go To Login</string>
+    <string name="select_location">Select Location</string>
+
+    <string-array name="blood_group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Seeker</item>
+        <item>Donor</item>
+    </string-array>
+
+
+</resources>
